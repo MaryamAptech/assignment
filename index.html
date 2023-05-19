@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var english=parseInt(prompt("Enter your english marks"));
+        var math=parseInt(prompt("Enter your math marks"));
+        var sindhi=parseInt(prompt("Enter your sindhi marks"));
+        var chamistry=parseInt(prompt("Enter your chamistry marks"));
+        var total_obtain=english+sindhi+chamistry+math;
+        //document.write(totalobtain);
+        var total_marks=100;
+        var percentage=(total_obtain/total_marks)*100;
+        document.write(percentage);
+
+       if(percentage>=33 &&  percentage<=44){
+              alert("E GRADE")
+       }
+       else if(percentage>=46 &&  percentage<=56){
+              alert(" D GRADE")
+       }
+       else if(percentage>=57 &&  percentage<=63){
+              alert(" C GRADE")
+       }
+        else if(percentage>=64 &&  percentage<=77){
+              alert("B GRADE")
+       }
+       else if(percentage>=78 &&  percentage<=100){
+              alert("A GRADE")
+       }
+       
+
+    </script>
+</body>
+</html>
